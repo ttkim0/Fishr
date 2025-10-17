@@ -1,0 +1,14 @@
+.chart-card {
+  grid-column: 1 / -1;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 60px 20px;
+  color: #93c5fd;
+  font-size: 1.1rem;
+}

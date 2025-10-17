@@ -1,0 +1,82 @@
+.recent-catches-card {
+  grid-column: 1 / -1;
+}
+
+.catches-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.refresh-button {
+  padding: 0.5rem 1rem;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  color: #60a5fa;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  line-height: 1;
+}
+
+.refresh-button:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: #3b82f6;
+  transform: rotate(180deg);
+}
+
+.catches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.catch-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(10, 25, 41, 0.4);
+  border-radius: 12px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  transition: all 0.3s ease;
+}
+
+.catch-item:hover {
+  background: rgba(30, 73, 118, 0.3);
+  border-color: rgba(59, 130, 246, 0.4);
+  transform: translateX(5px);
+}
+
+.catch-icon {
+  font-size: 2.5rem;
+}
+
+.catch-details {
+  flex: 1;
+}
+
+.catch-type {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #60a5fa;
+  margin-bottom: 5px;
+}
+
+.catch-meta {
+  font-size: 0.95rem;
+  color: #93c5fd;
+  opacity: 0.8;
+}
+
+.no-catches {
+  text-align: center;
+  padding: 40px 20px;
+  color: #93c5fd;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,15 @@
+.stats-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.stats-icon {
+  font-size: 3.5rem;
+  opacity: 0.9;
+}
+
+.stats-content {
+  flex: 1;
+}
